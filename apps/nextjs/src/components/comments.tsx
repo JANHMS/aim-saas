@@ -27,17 +27,47 @@ const reviews = [
     img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "김민수",
-    username: "@kios",
-    body: "저는 이 SaaS 서비스에 매우 만족하고 있습니다.",
-    img: "https://avatar.vercel.sh/jenny",
+    name: "Jack",
+    username: "@jack",
+    body: "I've never seen anything like this before. It's amazing. I love it.",
+    img: "https://avatar.vercel.sh/jack"
   },
   {
-    name: "山田太郎",
-    username: "@samtimkun",
-    body: "このSaaSサービスには本当に感謝しています。",
-    img: "https://avatar.vercel.sh/james",
+    name: "Hans",
+    username: "@hans",
+    body: "Diese Anwendung hat unsere Arbeitsweise revolutioniert. Es ist erstaunlich.",
+    img: "https://avatar.vercel.sh/hans"
   },
+  {
+    name: "Marie",
+    username: "@marie",
+    body: "Cet outil a révolutionné notre façon de travailler. C'est incroyable.",
+    img: "https://avatar.vercel.sh/marie"
+  },
+  {
+    name: "Sophie",
+    username: "@sophie",
+    body: "Ce service est vraiment incroyable. Cela a rendu notre travail beaucoup plus facile.",
+    img: "https://avatar.vercel.sh/sophie"
+  },
+  {
+    name: "Max",
+    username: "@max",
+    body: "Dieses Tool ist so leistungsfähig! Es hat unsere Produktivität drastisch verbessert.",
+    img: "https://avatar.vercel.sh/max"
+  },
+  {
+    name: "Pierre",
+    username: "@pierre",
+    body: "Je n'ai jamais vu quelque chose comme ça auparavant. C'est impressionnant.",
+    img: "https://avatar.vercel.sh/pierre"
+  },
+  {
+    name: "Anna",
+    username: "@anna",
+    body: "Dieses Tool hat das Potenzial, die Branche zu verändern. Ich bin begeistert.",
+    img: "https://avatar.vercel.sh/anna"
+  }
 ];
 
 const firstRow = reviews.slice(0, reviews.length / 2);
