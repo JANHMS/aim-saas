@@ -5,29 +5,35 @@ import { TextGenerateEffect } from "@saasfly/ui/typewriter-effect";
 export function TypewriterEffectSmooths() {
   const words = [
     {
-      text: "Build",
+      text: "1$",
     },
     {
-      text: "awesome",
+      text: "spend",
     },
     {
-      text: "apps",
-    },
-    {
-      text: "and",
-    },
-    {
-      text: "ship",
-    },
-    {
-      text: "fast",
-    },
-    {
-      text: "with",
+      text: "on",
     },
     {
       text: "Aim.",
       className: "text-blue-500",
+    },
+    {
+      text: "leads",
+    },
+    {
+      text: "to",
+    },
+    {
+      text: "5$",
+    },
+    {
+      text: "revenue",
+    },
+    {
+      text: "for",
+    },
+    {
+      text: "you",
     },
   ];
   return (

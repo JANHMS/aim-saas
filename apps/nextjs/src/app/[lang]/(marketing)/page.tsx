@@ -19,7 +19,7 @@ import type { Meteor } from "~/types/meteors";
 const meteors_data: Meteor = {
   name: "Join our Discord",
   description:
-    "Join our Discord server to help us understand your problems and improve our solution.",
+    "Join our Discord server to help us understand your sales problems and improve our solution.",
   button_content: "Chat with us",
   url: "https://discord.gg/buKa6gCVkm",
 };
