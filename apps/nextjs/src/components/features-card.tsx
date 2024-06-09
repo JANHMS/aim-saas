@@ -13,35 +13,42 @@ interface Item {
 
 let notifications = [
   {
-    name: "Payment received",
-    description: "Stripe subscription",
-    time: "15m ago",
-
-    icon: "💸",
+    name: "New Lead Generated",
+    description: "AI-based lead generation.",
+    time: "15 minutes ago",
+    icon: "👤",
     color: "#00C9A7",
   },
   {
-    name: "User signed up",
-    description: "Auth, simple and clean",
-    time: "10m ago",
+    name: "Automatic Lead Profile Generated",
+    description: "Automatically generate profiles for leads of upcoming calls.",
+    time: "10 minutes ago",
     icon: "👤",
+    color: "#1E86FF",
+  },
+  {
+    name: "Your Call Is Transcribed",
+    description: "Transcribe emails and calls.",
+    time: "8 minutes ago",
+    icon: "💬",
     color: "#FFB800",
   },
   {
-    name: "New Emails",
-    description: "Create beautiful emails",
-    time: "5m ago",
+    name: "Automatic Follow-Up Emails",
+    description: "No more manual follow-up emails.",
+    time: "5 minutes ago",
     icon: "💬",
     color: "#FF3D71",
   },
   {
-    name: "Easy Deploy",
-    description: "Deploy your app with ease",
-    time: "2m ago",
-    icon: "🗞️",
-    color: "#1E86FF",
-  },
+    name: "Leads Are Priotorized now",
+    description: "Target specific leads to receive a higher conversation rate",
+    time: "5 minutes ago",
+    icon: "💬",
+    color: "#FF3D71",
+  }
 ];
+
 
 notifications = Array.from({ length: 10 }, () => notifications).flat();
 

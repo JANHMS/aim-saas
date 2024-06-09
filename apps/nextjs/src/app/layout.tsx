@@ -53,7 +53,7 @@ export const metadata = {
       name: "saasfly",
     },
   ],
-  creator: "Saasfly",
+  creator: "Aim",
   openGraph: {
     type: "website",
     locale: "en_US",

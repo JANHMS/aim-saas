@@ -40,14 +40,14 @@ export function XBlogArticle() {
 }
 
 const blogContent = {
-  slug: "Making-Sense-of-React-Server-Components",
-  author: "Nextify",
-  date: "26th March, 2024",
-  title: "Making Sense of React Server Components",
+  slug: "",
+  author: "Aayran",
+  date: "23rd Feburary, 2024",
+  title: "The Vital Role of AI in Sales: An In-depth Guide to Leveraging AI for Business Growth",
   description:
-    "So, here's something that makes me feel old: React celebrated its 10th birthday this year!",
+    "The future of sales forecasting lies in AI-enabled predictive models!",
   image:
-    "https://cdn.sanity.io/images/tpb4obti/production/50c13f886c039225be4e7e99023b8f1e2b4161b9-1792x1024.png",
+    "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WrOcUB0BVp5yJkbUdDYB1A.jpeg",
   authorAvatar:
     "https://pbs.twimg.com/profile_images/1766283284370305025/QKXW5W3M_400x400.jpg",
 };

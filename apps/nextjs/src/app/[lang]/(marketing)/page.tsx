@@ -19,9 +19,9 @@ import type { Meteor } from "~/types/meteors";
 const meteors_data: Meteor = {
   name: "Join our Discord",
   description:
-    "Join our Discord server to chat with other developers and get help.",
+    "Join our Discord server to help us understand your problems and improve our solution.",
   button_content: "Chat with us",
-  url: "https://discord.com/invite/b9uTZjdkrb",
+  url: "https://discord.gg/buKa6gCVkm",
 };
 
 export default async function IndexPage({
@@ -38,23 +38,23 @@ export default async function IndexPage({
       <section className="h-[100vh] w-full">
         <div className="flex h-full w-full justify-between px-[220px]">
           <div className="flex flex-col pr-4 pt-28">
-            <Link href="https://document.saasfly.io" target="_blank">
+            <Link href="https://aim-saas.vercel.app/en" target="_blank">
               <DocumentGuide>
-                {dict.marketing.introducing || "Introducing Saasfly"}
+                {dict.marketing.introducing || "Introducing Aim"}
               </DocumentGuide>
             </Link>
 
             <div className="mt-4 pr-12">
               <h1 className="relative mb-6 max-w-4xl text-left text-3xl font-bold dark:text-zinc-100 md:text-7xl">
                 {dict.marketing.title ||
-                  "Saasfly: A new SaaS player? Make things easier."}
+                  "AIM: Optimize your Sales targets with AI."}
               </h1>
             </div>
 
             <div>
               <span className="text-zinc-500 sm:text-xl">
                 {dict.marketing.sub_title ||
-                  "Your complete All-in-One solution for building SaaS services."}
+                  "Webscrape your target person and priotorize your leads with AI"}
               </span>
               <TypewriterEffectSmooths />
             </div>
@@ -66,15 +66,6 @@ export default async function IndexPage({
                     {dict.marketing.get_started}
                   </span>
                 </ShimmerButton>
-              </Link>
-
-              <Link href="https://github.com/saasfly/saasfly" target="_blank">
-                <div className="ml-10 flex h-full items-center justify-center">
-                  <Icons.GitHub className="mr-2 h-6 w-6" />
-                  <span className="text-base font-semibold">
-                    {dict.marketing.view_on_github || "View on GitHub"}
-                  </span>
-                </div>
               </Link>
             </div>
           </div>
@@ -126,7 +117,7 @@ export default async function IndexPage({
           <div className="mb-6 text-xl dark:text-zinc-100 md:text-xl">
             Don’t just take our word for it. Here’s what{" "}
             <span className="font-bold">real people</span> are saying about
-            Saasfly.
+            Aim.
           </div>
 
           <div className="w-full overflow-x-hidden">

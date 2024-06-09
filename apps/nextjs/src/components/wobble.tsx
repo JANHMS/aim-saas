@@ -16,44 +16,28 @@ export function WobbleCardShow() {
             Stay up to date
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            We are committed to continually improving our starter kit and
-            providing the best possible resources for building saas service.
+            We are committed to continually improving our tech and
+            providing the best possible serive for your Sales pipeline.
           </p>
         </div>
-        <img
-          src="https://ui.aceternity.com/_next/image?url=%2Flinear.webp&w=1080&q=75"
-          width={500}
-          height={500}
-          alt="linear demo"
-          className="absolute -bottom-10 -right-4 rounded-2xl object-contain grayscale filter lg:-right-[40%]"
-        />
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-balance text-left text-base font-semibold tracking-[-0.015em] text-white md:text-xl lg:text-3xl">
           Philosophy
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          When creating this starter kit, we had several guiding principles in
-          mind.
+          When creating AIM we wanted to leverage Sales peoples knowledge and their time.
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm text-balance  text-left text-base font-semibold tracking-[-0.015em] text-white md:max-w-lg md:text-xl lg:text-3xl">
-            Streamline Your SaaS Development with Nextify’s Starter Kit.
+            Enhance Your Sales Pipeline with us.
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            Our starter kit embodies this expertise, empowering both our team
-            and clients to build high-quality SaaS services faster and easier.
+            Our tech embodies this expertise, empowering both you and your team to spend less time on researching and more time on selling.
           </p>
         </div>
-        <img
-          src="https://ui.aceternity.com/_next/image?url=%2Flinear.webp&w=1080&q=75"
-          width={500}
-          height={500}
-          alt="linear demo"
-          className="absolute -bottom-10 -right-10 rounded-2xl object-contain md:-right-[40%] lg:-right-[20%]"
-        />
       </WobbleCard>
     </div>
   );
