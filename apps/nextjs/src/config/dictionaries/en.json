@@ -1,13 +1,4 @@
 {  
-  "accounts": {
-    "title": "Sales Accounts",
-    "slogan": "You current accounts",
-    "contact": "for to contact our support team.",
-    "contact_2": "You can test with free tier.",
-    "faq": "Frequently Asked Questions",
-    "go_to_dashboard": "Go to dashboard",
-    "": ""
-  },
   "price": {
     "title": "Cheap, transparent prices!",
     "pricing": "Pricing",
@@ -65,6 +56,10 @@
     "dashboard": {
       "main_nav_documentation": "Documentation",
       "main_nav_support": "Support",
+      "sidebar_nav_accounts": "Accounts",
+      "sidebar_nav_events": "Events",
+      "sidebar_nav_tasks": "Tasks",
+      "sidebar_nav_profiler": "Profiler",
       "sidebar_nav_clusters": "Clusters",
       "sidebar_nav_billing": "Billing",
       "sidebar_nav_settings": "Settings",

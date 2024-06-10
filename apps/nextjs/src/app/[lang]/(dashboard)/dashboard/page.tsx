@@ -47,7 +47,6 @@ export default async function DashboardPage({
       userId: user.id,
     });
   }
-  // const accout
   const result: ClustersArray = await trpc.k8s.getClusters.query();
   if (result) {
     const clusters = result;
