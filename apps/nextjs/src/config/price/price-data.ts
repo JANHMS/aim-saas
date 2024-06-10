@@ -87,8 +87,8 @@ export const priceDataMap: Record<string, SubscriptionPlanTranslation[]> = {
       title: "Starter",
       description: "For Beginners",
       benefits: [
-        "Up to 1 cluster per month",
-        "Basic analytics and reporting",
+        "No new high quality leads per month",
+        "Up to 10 web scraping instances of individuals per month",
         "Access to basic features",
       ],
       limitations: [
@@ -111,9 +111,8 @@ export const priceDataMap: Record<string, SubscriptionPlanTranslation[]> = {
       title: "Pro",
       description: "Unlock Advanced Features",
       benefits: [
-        "Up to 3 clusters per month",
-        "Advanced analytics and reporting",
-        "Access to business templates",
+        "Up to 10 new high quality leads per month",
+        "Up to 100 web scraping instances of individuals per month",
         "Priority customer support",
         "Exclusive webinars and training",
       ],
@@ -135,9 +134,9 @@ export const priceDataMap: Record<string, SubscriptionPlanTranslation[]> = {
       title: "Business",
       description: "For Power Users",
       benefits: [
-        "Up to 10 clusters per month",
+        "Up to 25 new high quality leads per month",
+        "Up to 1000 web scraping instances of individuals per month",
         "Real-time analytics and reporting",
-        "Access to all templates, including custom branding",
         "24/7 business customer support",
         "Personalized configuration and account management",
       ],
