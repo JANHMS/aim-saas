@@ -17,7 +17,7 @@ export function WobbleCardShow() {
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
             We are committed to continually improving our tech and
-            providing the best possible serive for your Sales pipeline.
+            providing the best possible service for your Sales pipeline.
           </p>
         </div>
       </WobbleCard>

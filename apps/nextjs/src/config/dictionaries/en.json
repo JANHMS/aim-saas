@@ -1,4 +1,13 @@
-{
+{  
+  "accounts": {
+    "title": "Sales Accounts",
+    "slogan": "You current accounts",
+    "contact": "for to contact our support team.",
+    "contact_2": "You can test with free tier.",
+    "faq": "Frequently Asked Questions",
+    "go_to_dashboard": "Go to dashboard",
+    "": ""
+  },
   "price": {
     "title": "Cheap, transparent prices!",
     "pricing": "Pricing",
