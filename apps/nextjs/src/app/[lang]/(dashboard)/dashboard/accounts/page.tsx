@@ -3,10 +3,10 @@ import { mockAccounts, AccountsArray } from "~/types/accounts";
 import { AccountItem } from "~/components/accounts/account-item";
 
 interface Props {
-  accounts: AccountsArray;
+  accounts?: AccountsArray;
 }
 
-const AccountsPage: React.FC<Props> = ({ accounts }) => {
+const AccountsPage: React.FC<Props> = ({ accounts = mockAccounts }) => {
   return (
     <div>
       <h1>Accounts</h1>
@@ -23,10 +23,6 @@ const AccountsPage: React.FC<Props> = ({ accounts }) => {
       )}
     </div>
   );
-};
-
-AccountsPage.defaultProps = {
-  accounts: mockAccounts,
 };
 
 export default AccountsPage;
