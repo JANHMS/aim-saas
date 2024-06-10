@@ -1,49 +1,23 @@
-### 🖱 One Click Template
+# AIM
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsaasfly%2Fsaasfly&env=NEXT_PUBLIC_APP_URL,NEXTAUTH_URL,NEXTAUTH_SECRET,STRIPE_API_KEY,STRIPE_WEBHOOK_SECRET,POSTGRES_URL,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET,RESEND_API_KEY,RESEND_FROM&install-command=bun%20install&build-command=bun%20run%20build&root-directory=apps%2Fnextjs)
+**AIM: Reach your Sales targets with AI
+Webscrape your target person and priotorize your leads with AI**
 
-### 📋 Prerequisites
+-> 1$ spend on Aim. leads to 5$ revenue for you <-  
 
-Before you start, make sure you have the following installed:
 
-1. [Bun](https://bun.sh/) & [Node.js](https://nodejs.org/) & [Git](https://git-scm.com/)
+Get Started
 
-   1. Linux
-
-    ```bash
-      curl -sL https://gist.github.com/tianzx/874662fb204d32390bc2f2e9e4d2df0a/raw -o ~/downloaded_script.sh && chmod +x ~/downloaded_script.sh && source ~/downloaded_script.sh
-    ```
-
-   2. MacOS
-
-    ```bash
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-      brew install git
-      brew install oven-sh/bun/bun
-      brew install nvm
-    ```
-
-2. [PostgreSQL](https://www.postgresql.org/)
-   1. You can use Vercel Postgres or a local PostgreSQL server(add POSTGRES_URL env in .env.local)
-      ```bash
-         POSTGRES_URL = ''
-      ```
 
 ### Installation
 
-To get started with this boilerplate, we offer two options:
-
 1. Use the `bun create` command(🌟Strongly recommend🌟):
-
-```bash
-bun create saasfly 
-```
 
 2. Manually clone the repository:
 
 ```bash
-git clone https://github.com/saasfly/saasfly.git
-cd saasfly
+git clone https://github.com/JANHMS/aim-saas/
+cd aim-saas
 bun install
 ```
 
@@ -68,17 +42,6 @@ bun run dev:web
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 4. (Optional alpha)`bun run tailwind-config-viewer` Open [http://localhost:3333](http://localhost:3333) in your browser to see your Tailwind CSS configuration
-
-
-## 🥺 Project Roadmap
-
-1. Admin Dashboard Page (in alpha !!!)
-   2. only provide static page now and we plan to integrate with headless arch
-   3. You can provide your admin account and change **ADMIN_EMAIL="admin@saasfly.io,root@saasfly.io"** in .env.local and access host:port/admin/dashboard
-   4. Based on security concerns, we will not provide online demos for the time being.
-2. Consider integrating Payload CMS.
-
-## ⭐ Features
 
 ### 🐭 Frameworks
 
