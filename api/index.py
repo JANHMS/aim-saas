@@ -1,6 +1,9 @@
-from flask import Flask
-app = Flask(__name__)
+from sanic import Sanic
+from sanic.response import json
+app = Sanic()
 
-@app.route("/api/python")
-def hello_world():
-    return "<p>Hello, World!</p>"
+ 
+@app.route('/')
+@app.route('/api/python')
+async def index(request, path=""):
+    return json({'hello': path})

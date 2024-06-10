@@ -1,1 +1,2 @@
 Flask
+sanic==19.6.0
