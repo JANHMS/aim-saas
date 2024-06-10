@@ -6,8 +6,8 @@ export default function DashboardLoading() {
   return (
     <DashboardShell>
       <DashboardHeader
-        heading="kubernetes"
-        text="Create and manage clusters."
+        heading="AIM"
+        text="Create and manage sales accounts."
       ></DashboardHeader>
       <div className="divide-border-200 divide-y rounded-md border">
         <BasicItemSkeleton />
