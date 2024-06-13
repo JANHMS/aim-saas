@@ -3,6 +3,6 @@
     "silent": true
   },
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/" }
+    { "source": "/(.*)", "destination": "/api/index" }
   ]
 }
