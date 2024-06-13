@@ -37,9 +37,7 @@ const config = {
       {
         source: '/api/:path*',
         destination:
-          process.env.NODE_ENV === 'development'
-            ? 'http://127.0.0.1:5000/api/:path*'  // Local Flask server
-            : 'https://your-flask-api-url.com/api/:path*',  // Production Flask server
+          '/api/',
       },
     ];
   },
