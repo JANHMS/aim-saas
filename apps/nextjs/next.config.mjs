@@ -35,7 +35,7 @@ const config = {
   async rewrites() {
     return [
       {
-        source: "/(.*)", 
+        source: "/api/(.*)", 
         destination: "/api/index" 
       }
     ];
