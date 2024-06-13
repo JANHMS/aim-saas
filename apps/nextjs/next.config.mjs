@@ -35,8 +35,8 @@ const config = {
   async rewrites() {
     return [
       {
-        source: '/api/:path*',
-        destination: '/api/index.py', // Proxy to Vercel serverless function
+        source: "/api/(.*)", 
+        destination: "/api/index.py" 
       }
     ];
   },
