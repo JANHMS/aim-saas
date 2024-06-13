@@ -35,8 +35,8 @@ const config = {
   async rewrites() {
     return [
       {
-        source: "/api/(.*)", 
-        destination: "/api/index.py" 
+        source: '/api/:path*',
+        destination: '/api/'
       }
     ];
   },
