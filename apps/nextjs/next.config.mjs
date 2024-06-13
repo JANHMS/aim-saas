@@ -36,9 +36,7 @@ const config = {
     return [
       {
         source: '/api/:path*',
-        destination:
-          '/api/',
-      },
+        destination: '/api/index.py', // Proxy to Vercel serverless function
     ];
   },
 };
