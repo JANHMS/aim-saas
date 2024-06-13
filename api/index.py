@@ -9,4 +9,4 @@ def hello_world():
     return jsonify(message="Hello, world!")
 
 if __name__ == '__main__':
-    app.run(port=5328)
+    app.run(debug=True, port=5328)  # Port specification only for local development
