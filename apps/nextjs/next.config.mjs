@@ -32,14 +32,6 @@ const config = {
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   output: "standalone",
-  async rewrites() {
-    return [
-      {
-        source: "/api/(.*)",
-        destination: "/api/index.py"
-      }
-    ];
-  },
 };
 
 export default withNextDevtools(withMDX()(config));
