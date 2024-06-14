@@ -2,6 +2,11 @@
   "github": {
     "silent": true
   },
+  "functions": {
+    "api/**": {
+      "excludeFiles": "{.next,*.cache,node_modules,public,app}/**"
+    }
+  },
   "routes": [
     {
       "src": "/api/(.*)",
