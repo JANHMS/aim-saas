@@ -1,22 +1,13 @@
-# api/index.py
-
-from flask import Flask, jsonify, Blueprint
-
-app = Flask(__name__)
-
-# Define a Blueprint for the API routes
-api = Blueprint('api', __name__, url_prefix='/api')
-
-@api.route('/')
-def home():
-    return 'Hello, World!'
-
-@api.route('/about')
-def about():
-    return 'About'
-
-# Register the Blueprint
-app.register_blueprint(api)
-
-if __name__ == "__main__":
-    app.run(port=5000)
+from http.server import BaseHTTPRequestHandler
+from os.path import join
+ 
+class handler(BaseHTTPRequestHandler):
+ 
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type','text/plain')
+        self.end_headers()
+        with open(join('data', 'file.txt'), 'r') as file:
+          for line in file:
+            self.wfile.write(line.encode())
+        return
